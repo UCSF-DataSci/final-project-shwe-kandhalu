@@ -12,7 +12,6 @@ def load_data(file_path):
     """
     df = pd.read_csv(file_path, parse_dates=['date'])
     
-    # Example: select features (modify as per your data)
     features = ['fasting_glucose', 'cholesterol_total', 'hdl', 'ldl', 'triglycerides']
     
     # Sort by participant and date to maintain time order
